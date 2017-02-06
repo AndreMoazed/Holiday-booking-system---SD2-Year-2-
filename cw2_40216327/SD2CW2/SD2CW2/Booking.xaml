@@ -1,0 +1,25 @@
+﻿<Window x:Class="SD2CW2.Booking"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="booking" Height="300" Width="330">
+    <Grid>
+        <Label x:Name="lbl_bookingtitle" Content="Booking" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" FontWeight="Bold"/>
+        <Label x:Name="lbl_booking_ref" Content="Reference:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="107"/>
+        <Label x:Name="lbl_arrival_date" Content="Arrival:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="107"/>
+        <Label x:Name="lbl_dep_date" Content="Departure:" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="107"/>
+        <Label x:Name="lbl_num_of_guests" Content="Number of guests:" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBox_num_of_guests" HorizontalAlignment="Left" Height="23" Margin="122,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBox_booking_ref" HorizontalAlignment="Left" Height="23" Margin="122,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Button x:Name="btn_save_booking" Content="Save" HorizontalAlignment="Left" Margin="122,16,0,0" VerticalAlignment="Top" Width="61" Click="btn_save_booking_Click"/>
+        <Button x:Name="bt_del_booking" Content="Delete" HorizontalAlignment="Left" Margin="188,16,0,0" VerticalAlignment="Top" Width="54" Click="bt_del_booking_Click"/>
+        <Button x:Name="btn_view_guests" Content="-&gt;" HorizontalAlignment="Left" Margin="122,168,0,0" VerticalAlignment="Top" Width="120" Click="btn_view_guests_Click"/>
+        <Label x:Name="lbl_view_guest" Content="View guests:" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_invoice" Content="View invoice:" HorizontalAlignment="Left" Margin="8,227,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_invoice" Content="-&gt;" HorizontalAlignment="Left" Margin="122,233,0,0" VerticalAlignment="Top" Width="120" Click="btn_invoice_Click"/>
+        <Label x:Name="lbl_booking_extras" Content="View extras:" HorizontalAlignment="Left" Margin="10,196,0,0" VerticalAlignment="Top" Width="107"/>
+        <Button x:Name="btn_extras" Content="-&gt;" HorizontalAlignment="Left" Margin="122,199,0,0" VerticalAlignment="Top" Width="120" Click="btn_extras_Click"/>
+        <DatePicker x:Name="datepicker_arrival" HorizontalAlignment="Left" Margin="122,73,0,0" VerticalAlignment="Top" Width="120"/>
+        <DatePicker x:Name="datepicker_dep" HorizontalAlignment="Left" Margin="122,104,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

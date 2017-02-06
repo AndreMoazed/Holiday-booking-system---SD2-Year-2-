@@ -1,0 +1,6 @@
+to do for SD2CW2:
+
+-Automated test (4 hours)
+
+
+-Error handling (1 hour)

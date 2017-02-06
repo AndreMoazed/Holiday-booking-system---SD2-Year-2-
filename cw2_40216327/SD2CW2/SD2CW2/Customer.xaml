@@ -1,0 +1,24 @@
+﻿<Window x:Class="SD2CW2.Customer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Customer" Height="300" Width="330">
+    <Grid>
+        <Label x:Name="lbl_cust_ref" Content="Customer reference:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_customer" Content="Customer" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lbl_cust_first" Content="First name:" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Width="117"/>
+        <Label x:Name="lbl_cust_last" Content="Last name:" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" Width="117"/>
+        <Label x:Name="lbl_cust_address" Content="Address:" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top" Width="117"/>
+        <TextBox x:Name="txtBox_cust_ref" HorizontalAlignment="Left" Height="23" Margin="132,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" IsEnabled="False"/>
+        <TextBox x:Name="txtBox_cust_first" HorizontalAlignment="Left" Height="23" Margin="132,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152"/>
+        <TextBox x:Name="txtBox_cust_last" HorizontalAlignment="Left" Height="23" Margin="132,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152"/>
+        <TextBox x:Name="txtBox_cust_address" HorizontalAlignment="Left" Height="23" Margin="132,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152"/>
+        <Label x:Name="lbl_new_booking" Content="Add new booking:" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top" Width="117"/>
+        <Label x:Name="lbl_select_booking" Content="Select booking:" HorizontalAlignment="Left" Margin="10,203,0,0" VerticalAlignment="Top" Width="117"/>
+        <Button x:Name="btn_new_booking" Content="+" HorizontalAlignment="Left" Margin="132,175,0,0" VerticalAlignment="Top" Width="152" Click="btn_new_booking_Click"/>
+        <Button x:Name="btn_select_booking" Content="-&gt;" HorizontalAlignment="Left" Margin="260,208,0,0" VerticalAlignment="Top" Width="24" Click="btn_select_booking_Click"/>
+        <TextBox x:Name="txtBox_select_booking" HorizontalAlignment="Left" Height="23" Margin="132,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="btn_cust_save" Content="Save" HorizontalAlignment="Left" Margin="132,16,0,0" VerticalAlignment="Top" Width="60" Click="btn_cust_save_Click"/>
+        <Button x:Name="btn_cust_del" Content="Delete" HorizontalAlignment="Left" Margin="224,16,0,0" VerticalAlignment="Top" Width="60" Click="btn_cust_del_Click"/>
+
+    </Grid>
+</Window>
